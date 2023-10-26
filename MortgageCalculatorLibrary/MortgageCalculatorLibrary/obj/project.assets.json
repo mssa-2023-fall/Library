@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary.csproj",
-      "projectName": "MortgageCalculator",
+      "projectName": "MSSAMortgageCalculator",
       "projectPath": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary\\obj\\",
