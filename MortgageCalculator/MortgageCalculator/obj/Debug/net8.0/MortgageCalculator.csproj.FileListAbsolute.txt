@@ -1,0 +1,15 @@
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/bin/Debug/net8.0/MortgageCalculator
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/bin/Debug/net8.0/MortgageCalculator.deps.json
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/bin/Debug/net8.0/MortgageCalculator.runtimeconfig.json
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/bin/Debug/net8.0/MortgageCalculator.dll
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/bin/Debug/net8.0/MortgageCalculator.pdb
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.AssemblyInfoInputs.cache
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.AssemblyInfo.cs
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.csproj.CoreCompileInputs.cache
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.sourcelink.json
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.dll
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/refint/MortgageCalculator.dll
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.pdb
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/MortgageCalculator.genruntimeconfig.cache
+/Users/benazure/Projects/Benedict-CompilerBatch/MortgageCalculator/MortgageCalculator/obj/Debug/net8.0/ref/MortgageCalculator.dll

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{D7537D5A-A995-4474-B83B-518BA4B86915}|Default">
+  <MonoDevelop.Ide.ItemProperties.MortgageCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MortgageCalculator/Program.cs">
+    <Files>
+      <File FileName="MortgageCalculator/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MortgageCalculator" expanded="True">
+            <Node name="MortgageCalculator" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
