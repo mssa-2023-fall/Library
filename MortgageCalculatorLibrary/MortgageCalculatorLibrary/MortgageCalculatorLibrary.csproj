@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>MortgageCalculator</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Chris Rodriguez; Ben Azure; Bradley McFarland</Authors>
+		<Description>Mortgage calculator</Description>
+		<!-- Optional properties -->
+		<PackageTags>finance; mortgage calculator</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+</Project>
