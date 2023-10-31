@@ -1,14 +1,14 @@
 ﻿namespace GlizzyServices
 {
-	interface ICurrencyConverter
+	public interface ICurrencyConverter
 	{
 		Money Convert(string from, string to, decimal amountToConvertFrom);
 	}
 
     public record class Money
     {
-        string Currency;
-        decimal Amount;
+        public string Currency;
+        public decimal Amount;
     }
 
     interface INotifier
