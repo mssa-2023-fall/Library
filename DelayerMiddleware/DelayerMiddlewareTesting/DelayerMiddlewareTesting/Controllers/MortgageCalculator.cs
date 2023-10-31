@@ -8,11 +8,9 @@ namespace DelayerMiddlewareTesting.Controllers
     [ApiController]
     public class MortgageCalculator : ControllerBase
     {
-        private ILogger<WeatherForecastController> _logger;
 
-        public MortgageCalculator(ILogger<WeatherForecastController> logger)
+        public MortgageCalculator()
         {
-            _logger = logger;
         }
 
         [HttpGet(Name = "GetMonthlyPayment")]
