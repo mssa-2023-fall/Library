@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GlizzyServices
+namespace GlizzyServices.GlizzyFacts
 {
     public class GlizzyFactsRepository : IGlizzyFacts
     {
@@ -47,21 +47,21 @@ namespace GlizzyServices
     }
 }
 
-    /*
-    IGlizzyFacts glizzyFactsRepository = new GlizzyFactsRepository();
+/*
+IGlizzyFacts glizzyFactsRepository = new GlizzyFactsRepository();
 
-    // Add a GlizzyFact
-    GlizzyFact newFact = new GlizzyFact
-    {
-        FactId = 4,
-        Source = "Example Source",
-        Fact = "This is an example Glizzy fact."
-    };
-    glizzyFactsRepository.AddGlizzyFacts(newFact);
+// Add a GlizzyFact
+GlizzyFact newFact = new GlizzyFact
+{
+    FactId = 4,
+    Source = "Example Source",
+    Fact = "This is an example Glizzy fact."
+};
+glizzyFactsRepository.AddGlizzyFacts(newFact);
 
-    // Retrieve a GlizzyFact
-    GlizzyFact randomFact = glizzyFactsRepository.GetGlizzyFact();
-    Console.WriteLine($"Fact ID: {randomFact.FactId}");
-    Console.WriteLine($"Source: {randomFact.Source}");
-    Console.WriteLine($"Fact: {randomFact.Fact}");
-    */
+// Retrieve a GlizzyFact
+GlizzyFact randomFact = glizzyFactsRepository.GetGlizzyFact();
+Console.WriteLine($"Fact ID: {randomFact.FactId}");
+Console.WriteLine($"Source: {randomFact.Source}");
+Console.WriteLine($"Fact: {randomFact.Fact}");
+*/
