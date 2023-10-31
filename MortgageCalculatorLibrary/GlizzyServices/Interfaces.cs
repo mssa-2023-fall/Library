@@ -1,4 +1,6 @@
-﻿namespace GlizzyServices
+﻿using GlizzyServices;
+
+namespace GlizzyServices
 {
 	interface ICurrencyConverter
 	{
@@ -16,23 +18,27 @@
         void Notify(string addressTo,string message);
     }
 
-    interface IGlizzyFacts
+   public interface IGlizzyFacts
     {
-        GlizzyFact GetGlizzyFact();
-        bool AddGlizzyFacts(GlizzyFact fact );
+       public GlizzyFact GetGlizzyFact();
+        public bool AddGlizzyFacts(GlizzyFact fact );
     }
 
     public record class GlizzyFact
-    {
-        int FactId;
-        string Source;
-        string Fact;
+   {
+        public int FactId;
+        public string Source;
+        public string Fact;
+        public GlizzyFact(int factId, string source, string fact)
+        {
+            FactId = factId;
+            Source = source;
+            Fact = fact;
+        }
     }
 
     interface IMortgageCalcualtor
     {
         decimal CalculateMonthlyPayment();
     }
-
-
 }
