@@ -1,0 +1,11 @@
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\bin\Debug\net6.0\MortgageCalculatorLibrary.deps.json
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\bin\Debug\net6.0\MortgageCalculatorLibrary.dll
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\bin\Debug\net6.0\MortgageCalculatorLibrary.pdb
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.AssemblyInfo.cs
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.dll
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\refint\MortgageCalculatorLibrary.dll
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\MortgageCalculatorLibrary.pdb
+C:\Users\bradl\Source\Repos\MortgageGitHub\MortgageCalculatorLibrary\MortgageCalculatorLibrary\obj\Debug\net6.0\ref\MortgageCalculatorLibrary.dll
