@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj": {}
+    "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj": {
+    "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj",
         "projectName": "MortgageCalculator",
-        "projectPath": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj",
-        "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chris\\Source\\Repos\\Library\\MortgageCalculator\\MortgageCalculator\\obj\\",
+        "projectPath": "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculator\\MortgageCalculator\\MortgageCalculator.csproj",
+        "packagesPath": "C:\\Users\\Xavier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculator\\MortgageCalculator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Xavier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

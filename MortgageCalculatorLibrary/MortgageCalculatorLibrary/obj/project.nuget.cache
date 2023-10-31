@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nSRBvyhbyJeEIOgOiVjxGHN83NPbvWvnrwfx5jQyt5tfkiIzv7yh6XER+nBP2cmqMewHrEwPpefHNQ/6Jov+wg==",
+  "dgSpecHash": "4hsr0Bg03bc5qNHKfjS0lQb1Ok+GBEqpgsIlYEw3UxrTw2DtY0/nQwXuRXjn0tfuSyHFYe4en8C+VyTauuxbZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Xavier\\Desktop\\Projects\\AddCurrencyConverter\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary\\MortgageCalculatorLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Xavier\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
