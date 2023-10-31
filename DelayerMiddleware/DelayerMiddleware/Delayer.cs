@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -16,16 +17,23 @@ namespace DelayerMiddleware
     public class DelayerMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly ILogger logger;
         private readonly int _delayInMilliSecond=0;
 
-        public DelayerMiddleware(RequestDelegate next, IOptions<DelayOptions> options)
+        public DelayerMiddleware(RequestDelegate next, IOptions<DelayOptions> options, ILogger<DelayerMiddleware> logger)
         {
+            logger.LogInformation("DelayerMiddleware constructor called.");
             this._next = next;
+            this.logger = logger;
             _delayInMilliSecond = options.Value.MilliSecond;
+            logger.LogInformation("DelayerMiddleware constructor finished.");
+
         }
         public async Task InvokeAsync(HttpContext context)
-        { 
+        {
+            logger.LogInformation("DelayerMiddleware Invoke starting.");
             await Task.Delay(this._delayInMilliSecond);
+            logger.LogInformation("DelayerMiddleware Invoke Completed.");
             await _next(context);
         }
 
