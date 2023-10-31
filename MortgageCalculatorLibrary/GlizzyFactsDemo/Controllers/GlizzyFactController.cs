@@ -17,15 +17,6 @@ namespace GlizzyFactsDemo.Controllers
             this.glizzyFactsRepository = glizzyFacts;
         }
 
-
-      /*  [HttpGet(Name = "GetGlizzyFacts")]
-        public ActionResult<GlizzyFactsController> Get()
-        {
-            Random random = new Random();
-            int randomIndex = random.Next(.Count);
-            return glizzyFacts[randomIndex];
-        }*/
-
         [HttpGet("random")]
         [Produces("application/json")]
         public IActionResult GetRandomGlizzyFact()
