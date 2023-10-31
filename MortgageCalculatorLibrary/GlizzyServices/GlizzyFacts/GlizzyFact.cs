@@ -9,22 +9,22 @@ namespace GlizzyServices.GlizzyFacts
     public class GlizzyFactsRepository : IGlizzyFacts
     {
         private Dictionary<int, GlizzyFact> glizzyFacts = new Dictionary<int, GlizzyFact>();
-        private int _keyIndex = 1;
+        
 
         public GlizzyFactsRepository()
         {
             glizzyFacts = new Dictionary<int, GlizzyFact>
             {
-                {1, fact1 },
-                {2, fact2 },
-                {3, fact3 }
+                {0, fact1 },
+                {1, fact2 },
+                {2, fact3 }
 
             };
         }
 
         GlizzyFact fact1 = new GlizzyFact(1, "Internet", "Origins of the Hotdog are a mystery");
-        GlizzyFact fact2 = new GlizzyFact(1, "Wienerschnitzel.com", "Believe it or not, Kids dress up as there are Evil Weiners in the world!");
-        GlizzyFact fact3 = new GlizzyFact(1, "TheHotDog.Org", "Americans consume an estimated 20 billion hot dogs each year and 70 million on July 4th alone.");
+        GlizzyFact fact2 = new GlizzyFact(2, "Wienerschnitzel.com", "Believe it or not, Kids dress up as an Evil Weiner on Halloween!");
+        GlizzyFact fact3 = new GlizzyFact(3, "TheHotDog.Org", "Americans consume an estimated 20 billion hot dogs each year and 70 million on July 4th alone.");
 
 
         public GlizzyFact GetGlizzyFact()
@@ -47,21 +47,3 @@ namespace GlizzyServices.GlizzyFacts
     }
 }
 
-/*
-IGlizzyFacts glizzyFactsRepository = new GlizzyFactsRepository();
-
-// Add a GlizzyFact
-GlizzyFact newFact = new GlizzyFact
-{
-    FactId = 4,
-    Source = "Example Source",
-    Fact = "This is an example Glizzy fact."
-};
-glizzyFactsRepository.AddGlizzyFacts(newFact);
-
-// Retrieve a GlizzyFact
-GlizzyFact randomFact = glizzyFactsRepository.GetGlizzyFact();
-Console.WriteLine($"Fact ID: {randomFact.FactId}");
-Console.WriteLine($"Source: {randomFact.Source}");
-Console.WriteLine($"Fact: {randomFact.Fact}");
-*/

@@ -26,14 +26,23 @@ namespace GlizzyFactsDemo.Controllers
             return glizzyFacts[randomIndex];
         }*/
 
-        [HttpGet]
+        [HttpGet("random")]
+        [Produces("application/json")]
         public IActionResult GetRandomGlizzyFact()
         {
             GlizzyFact randomFact = glizzyFactsRepository.GetGlizzyFact();
 
             if (randomFact != null)
             {
-                return Ok(randomFact);
+                var response = new
+                {
+                    success = true,
+                    message = "Random Glizzy fact retrieved successfully",
+                    fact = randomFact.Fact
+                };
+                Console.WriteLine(randomFact);
+                return Ok(response);
+
             }
             else
             {

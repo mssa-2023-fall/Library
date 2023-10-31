@@ -21,7 +21,7 @@ namespace GlizzyServices
    public interface IGlizzyFacts
     {
        public GlizzyFact GetGlizzyFact();
-        public bool AddGlizzyFacts(GlizzyFact fact );
+       public bool AddGlizzyFacts(GlizzyFact fact );
     }
 
     public record class GlizzyFact
