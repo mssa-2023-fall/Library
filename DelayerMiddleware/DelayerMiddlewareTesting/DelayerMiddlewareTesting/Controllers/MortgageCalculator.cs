@@ -4,15 +4,13 @@ using MortgageCalculatorLibrary;
 
 namespace DelayerMiddlewareTesting.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class MortgageCalculator : ControllerBase
     {
-        private ILogger<WeatherForecastController> _logger;
 
-        public MortgageCalculator(ILogger<WeatherForecastController> logger)
+        public MortgageCalculator()
         {
-            _logger = logger;
         }
 
         [HttpGet(Name = "GetMonthlyPayment")]
