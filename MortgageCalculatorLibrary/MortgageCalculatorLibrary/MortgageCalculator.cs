@@ -22,13 +22,22 @@ namespace MortgageCalculatorLibrary
 
         public decimal CalculateMonthlyPayment()
         {
-            var monthlyInterestRate = InterestRate / 12;
+            var monthlyInterestRate = InterestRate / 100 / 12;
             var lengthInMonths = LoanTerm * 12;
             var monthlyPrinPlusInt = (PrincipalAmount * monthlyInterestRate)
                                      / (decimal)(1 - Math.Pow((double)(1 + monthlyInterestRate), -lengthInMonths));
 
             var monthlyPayment = monthlyPrinPlusInt + MonthlyEscrow;
             return monthlyPayment;
+        }
+
+        public override string ToString() {
+            return $"Monthly Payment: {CalculateMonthlyPayment()} " +
+                $"Interest Rate: %{InterestRate} " +
+                $"Monthly Escrow: {MonthlyEscrow} " +
+                $"Principal Amount: {PrincipalAmount} " +
+                $"Origin Date: {OriginationDate} " +
+                $"Loan Term: {LoanTerm}";
         }
     }
 
