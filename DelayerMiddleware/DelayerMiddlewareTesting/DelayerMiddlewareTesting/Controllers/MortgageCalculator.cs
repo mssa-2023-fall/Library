@@ -4,7 +4,7 @@ using MortgageCalculatorLibrary;
 
 namespace DelayerMiddlewareTesting.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class MortgageCalculator : ControllerBase
     {
