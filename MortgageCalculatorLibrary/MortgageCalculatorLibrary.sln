@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageCalculatorLibrary",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageCalculatorTests", "MortgageCalculatorTests\MortgageCalculatorTests.csproj", "{A5E6EAEF-FACF-4AA9-9487-581F617D4ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlizzyServices", "GlizzyServices\GlizzyServices.csproj", "{4DF934DC-8775-4FA1-A468-08042C51532C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlizzyServices", "GlizzyServices\GlizzyServices.csproj", "{4DF934DC-8775-4FA1-A468-08042C51532C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
