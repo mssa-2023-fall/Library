@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlizzyServices", "GlizzySer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlizzyFactsDemo", "GlizzyFactsDemo\GlizzyFactsDemo.csproj", "{9090BC51-8F75-408E-9A7C-9F0D17DDD957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCGlizzyServiceDemo", "VCGlizzyServiceDemo\VCGlizzyServiceDemo.csproj", "{5A155570-0E52-41CE-806D-844EFA94D677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +31,17 @@ Global
 		{4DF934DC-8775-4FA1-A468-08042C51532C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF934DC-8775-4FA1-A468-08042C51532C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF934DC-8775-4FA1-A468-08042C51532C}.Release|Any CPU.Build.0 = Release|Any CPU
+
 		{9090BC51-8F75-408E-9A7C-9F0D17DDD957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9090BC51-8F75-408E-9A7C-9F0D17DDD957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9090BC51-8F75-408E-9A7C-9F0D17DDD957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9090BC51-8F75-408E-9A7C-9F0D17DDD957}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{5A155570-0E52-41CE-806D-844EFA94D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A155570-0E52-41CE-806D-844EFA94D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A155570-0E52-41CE-806D-844EFA94D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A155570-0E52-41CE-806D-844EFA94D677}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
