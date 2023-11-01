@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MortgageCalculatorLibrary": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Currency_Converter_API_Key": "83242bb83emsh9a6bf7e86603930p12b53fjsnb1980475ad0c",
+        "Currency_Converter_API_Endpoint": "currency-converter-by-api-ninjas.p.rapidapi.com"
+      }
+    }
+  }
+}

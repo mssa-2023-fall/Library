@@ -1,9 +1,13 @@
 ﻿using System;
+using GlizzyServices;
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices.JavaScript;
+using Newtonsoft.Json.Linq;
+using System.Runtime.InteropServices;
 
 namespace MortgageCalculatorLibrary
 {
-    public class Mortgage
-    {
+    public class Mortgage {
         public decimal InterestRate { get; set; }
         public decimal PrincipalAmount { get; set; }
         public int LoanTerm { get; set; }
@@ -38,6 +42,39 @@ namespace MortgageCalculatorLibrary
                 $"Principal Amount: {PrincipalAmount} " +
                 $"Origin Date: {OriginationDate} " +
                 $"Loan Term: {LoanTerm}";
+        }
+
+        public class CurrencyConverter : ICurrencyConverter {
+            public Money Convert(string from, string to, decimal amountToConvertFrom) {
+                return ConvertCurrencyAsync(from, to, amountToConvertFrom).Result;
+            }
+
+            public static async Task<Money> ConvertCurrencyAsync(string from, string to, decimal amountToConvertFrom) {
+                var convertedMoney = new Money() { Currency = from, Amount = amountToConvertFrom };
+                var client = new HttpClient();
+
+                var request = new HttpRequestMessage {
+                    Method = HttpMethod.Get,
+                    RequestUri = new Uri($"https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency?have={from}&want={to}&amount={amountToConvertFrom}"),
+                    Headers =
+                    {
+                    { "X-RapidAPI-Key", "83242bb83emsh9a6bf7e86603930p12b53fjsnb1980475ad0c" },
+                    { "X-RapidAPI-Host", "currency-converter-by-api-ninjas.p.rapidapi.com" },
+                },
+                };
+
+                try {
+                    using (var response = await client.SendAsync(request)) {
+                        response.EnsureSuccessStatusCode();
+                        var body = await response.Content.ReadAsStringAsync();
+                        dynamic responseObject = JObject.Parse(body);
+                        convertedMoney = new Money() { Currency = responseObject.new_currency, Amount = responseObject.new_amount };
+                        //Console.WriteLine($"Old Cur: {responseObject.old_currency} Old Amount: {responseObject.old_amount}\nNew Cur: {responseObject.new_currency} New Amount: {responseObject.new_amount}");
+                    }
+                } catch { Console.WriteLine("Error :("); };
+
+                return convertedMoney;
+            }
         }
     }
 

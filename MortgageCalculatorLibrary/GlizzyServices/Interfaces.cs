@@ -7,8 +7,10 @@
 
     public record class Money
     {
+
       public string Currency { get; set; }
       public decimal Amount { get; set; }
+
     }
 
     interface INotifier
