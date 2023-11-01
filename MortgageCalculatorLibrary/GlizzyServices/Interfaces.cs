@@ -2,13 +2,15 @@
 {
 	public interface ICurrencyConverter
 	{
-		Money Convert(string from, string to, decimal amountToConvertFrom);
+		public Money Convert(string from, string to, decimal amountToConvertFrom);
 	}
 
     public record class Money
     {
-        public string Currency;
-        public decimal Amount;
+
+      public string Currency { get; set; }
+      public decimal Amount { get; set; }
+
     }
 
     interface INotifier
